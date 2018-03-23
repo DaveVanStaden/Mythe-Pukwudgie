@@ -15,7 +15,7 @@ public class CursorMovement : MonoBehaviour {
         float translation = Input.GetAxis("Vertical") * speed;
         float rotation = Input.GetAxis("Horizontal") * rotationSpeed;
         translation *= speed * Time.deltaTime;
-        rotation *= Time.deltaTime;
+        rotation *= speed * Time.deltaTime;
         transform.Translate(rotation, translation, 0);
     }
 }

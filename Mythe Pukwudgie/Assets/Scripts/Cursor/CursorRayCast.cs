@@ -2,17 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CursorRayCast : MonoBehaviour {
-    public Collider coll;
+public class CursorRayCast : MonoBehaviour
+{
+    private Collider _coll;
+    [SerializeField]
+    private GameObject _block;
+    private int _layerMask = 1 << 9;
 
-    void Start () {
-        coll = GetComponent<Collider>();
+    void Start()
+    {
+        _coll = GetComponent<Collider>();
     }
 
-	void Update () {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+    void Update()
+    {
         RaycastHit hit;
-        if (coll.Raycast(ray, out hit, 100.0F))
-            transform.position = ray.GetPoint(100.0F);
+        Ray ray = new Ray(transform.position, _block.transform.position - transform.position);
+        Debug.DrawRay(ray.origin, ray.direction * 100);
+        if (Physics.Raycast(ray,out hit, float.MaxValue, _layerMask))
+            Debug.Log("Hit something!");
     }
 }
