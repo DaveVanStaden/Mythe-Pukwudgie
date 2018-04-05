@@ -292,8 +292,10 @@
     <Compile Include="Assets\Scripts\Cursor\CursorInBox.cs" />
     <Compile Include="Assets\Scripts\Cursor\CursorMovement.cs" />
     <Compile Include="Assets\Scripts\Cursor\CursorRayCast.cs" />
+    <Compile Include="Assets\Scripts\EnemyAI\DissableMovement.cs" />
     <Compile Include="Assets\Scripts\EnemyAI\Waypoints.cs" />
-    <Compile Include="Assets\Scripts\TreeTrap\TreTrapChecker.cs" />
+    <Compile Include="Assets\Scripts\TreeTrap\TrapActive.cs" />
+    <Compile Include="Assets\Scripts\TreeTrap\TrapChecker.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

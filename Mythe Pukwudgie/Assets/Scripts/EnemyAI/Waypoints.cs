@@ -11,6 +11,7 @@ public class Waypoints : MonoBehaviour {
     private float _movementSpeed;
     private float _startTime;
     private float _distance;
+    private Rigidbody _rb;
 
     void Start ()
     {
@@ -29,9 +30,10 @@ public class Waypoints : MonoBehaviour {
         
         float coveredDistance = (Time.time - _startTime) * _movementSpeed;
         float journey = coveredDistance / _distance;
-        print(journey);
         if(!float.IsNaN(journey))
             this.transform.position = Vector3.Lerp(_lastPosition, _nextPosition, journey);
+
+        
 	}
 
     void NewWaypoint()

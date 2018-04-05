@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class controller : MonoBehaviour {
   /*  private static string triangle = "";
     public static string Triangle { get { return triangle; } }
