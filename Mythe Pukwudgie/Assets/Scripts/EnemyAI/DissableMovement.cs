@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class DissableMovement : MonoBehaviour {
     private TrapChecker _trapChecker;
+    private GameObject _trap;
     private Waypoints _waypoints;
     // Use this for initialization
     void Start () {
         _trapChecker = GameObject.Find("Trap").GetComponent<TrapChecker>();
+        _trap = GameObject.Find("Trap");
+        _trap.SetActive(false);
         _waypoints = GetComponent<Waypoints>();
     }
 	

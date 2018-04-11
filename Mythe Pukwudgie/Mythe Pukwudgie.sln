@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mythe Pukwudgie", "Mythe Pukwudgie.csproj", "{F4DF5AE9-2DD8-1366-8A6F-7BA7B99A4304}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mythe Pukwudgie.Editor", "Mythe Pukwudgie.Editor.csproj", "{EB7DB4ED-408E-C6A7-E260-A4BEFD846BDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{F4DF5AE9-2DD8-1366-8A6F-7BA7B99A4304}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4DF5AE9-2DD8-1366-8A6F-7BA7B99A4304}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4DF5AE9-2DD8-1366-8A6F-7BA7B99A4304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB7DB4ED-408E-C6A7-E260-A4BEFD846BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7DB4ED-408E-C6A7-E260-A4BEFD846BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7DB4ED-408E-C6A7-E260-A4BEFD846BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7DB4ED-408E-C6A7-E260-A4BEFD846BDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

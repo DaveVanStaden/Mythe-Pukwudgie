@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class TrapActive : MonoBehaviour {
     public bool activateTrap = false;
-    private void OnTriggerStay(Collider other){
+
+    private void OnTriggerEnter(Collider other){
         Debug.Log(activateTrap + " " + other.tag);
         if (other.tag == "TrapActivator"){
             activateTrap = true;
