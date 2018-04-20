@@ -1,21 +1,36 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.WSA.Persistence;
 
 public class Waypoints : MonoBehaviour {
-    [SerializeField]private GameObject[] _points;
-    private Vector3 _nextPosition;
-    private Vector3 _lastPosition;
-    private int _pointIndex;
-    private int _currentPointIndex;
-    private float _movementSpeed;
-    private float _startTime;
-    private float _distance;
-    private Rigidbody _rb;
+    private Moving _mv;
 
-    void Start ()
+    [SerializeField]private GameObject[] _points;
+    public GameObject[] Points { get { return _points; } }
+    private int _pointIndex;
+    public int PointIndex { get { return _pointIndex; } set {
+            _pointIndex = (value >= Points.Length) ? 0 : value;
+        }
+    }
+    private int _currentPointIndex;
+    public int CurrentPointIndex { get { return _currentPointIndex; } set { _currentPointIndex = value; } }
+    private Vector3 _nextPosition;
+    public Vector3 NextPosition { get { return _nextPosition; } set { _nextPosition = value; } }
+    private Vector3 _lastPosition;
+    public Vector3 LastPosition { get { return _lastPosition; } set { _lastPosition = value; } }
+    private float _movementSpeed;
+    public float MovementSpeed { get { return _movementSpeed; } }
+    private float _startTime;
+    public float StartTime { get { return _startTime; } set { _startTime = value; } }
+    private float _distance;
+    public float Distance { get { return _distance; } set { _distance = value; } }
+
+    private void Start ()
     {
-        _pointIndex = Random.Range(0, _points.Length);
+        _mv = this.GetComponent<Moving>();
+
+        _pointIndex = 0;
         _nextPosition = new Vector3 (_points[_pointIndex].transform.position.x, 0, _points[_pointIndex].transform.position.z);
         _lastPosition = this.transform.position;
         _movementSpeed = 1;
@@ -23,34 +38,8 @@ public class Waypoints : MonoBehaviour {
         _distance = Vector3.Distance(_lastPosition, _nextPosition);
     }
 	
-	void Update ()
-    {
-        if (this.transform.position.x == _nextPosition.x && this.transform.position.z == _nextPosition.z)
-            Arrived();
-        
-        float coveredDistance = (Time.time - _startTime) * _movementSpeed;
-        float journey = coveredDistance / _distance;
-        if(!float.IsNaN(journey))
-            this.transform.position = Vector3.Lerp(_lastPosition, _nextPosition, journey);
-
-        
+	private void Update ()
+	{
+	    _mv.Move();
 	}
-
-    void NewWaypoint()
-    {
-        if(_currentPointIndex == _pointIndex)
-            _pointIndex = Random.Range(0, _points.Length);
-
-        _currentPointIndex = _pointIndex;
-        _nextPosition = new Vector3(_points[_pointIndex].transform.position.x, 0, _points[_pointIndex].transform.position.z);
-    }
-
-    void Arrived()
-    {
-        _lastPosition = _nextPosition;
-        NewWaypoint();
-
-        _startTime = Time.time;
-        _distance = Vector3.Distance(_lastPosition, _nextPosition);
-    }
 }

@@ -13,9 +13,7 @@ public class ParticleTrap : MonoBehaviour {
         _particleSystem = GetComponent<ParticleSystem>();
         _particleSystem.Stop();
     }
-
-    // Update is called once per frame
-    void Update()
+    public void ParticleSystem()
     {
         if (_trapChecker.activate)
         {

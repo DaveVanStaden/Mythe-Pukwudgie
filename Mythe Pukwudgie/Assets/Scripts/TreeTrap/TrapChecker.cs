@@ -5,9 +5,11 @@ using UnityEngine;
 public class TrapChecker : MonoBehaviour {
     private TrapActive _activateTrap;
     public bool activate = false;
+    private ParticleTrap _particleTrap;
     private void Start()
     {
         _activateTrap = GetComponent<TrapActive>();
+        _particleTrap = GetComponent<ParticleTrap>();
     }
 
     private void OnTriggerEnter(Collider collision){
@@ -15,7 +17,9 @@ public class TrapChecker : MonoBehaviour {
         if (collision.gameObject.tag == "Player") {
             Debug.Log(activate);
             activate = true;
-        }  
+            _particleTrap.ParticleSystem();
+        }
+
     }
     private void OnTriggerExit(Collider other)
     {

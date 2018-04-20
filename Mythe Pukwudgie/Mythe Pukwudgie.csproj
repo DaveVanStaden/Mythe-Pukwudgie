@@ -337,12 +337,17 @@
     <Compile Include="Assets\Scripts\Cursor\CursorInBox.cs" />
     <Compile Include="Assets\Scripts\Cursor\CursorMovement.cs" />
     <Compile Include="Assets\Scripts\Cursor\CursorRayCast.cs" />
+    <Compile Include="Assets\Scripts\Cursor\DragManager.cs" />
+    <Compile Include="Assets\Scripts\EnemyAI\Arrived.cs" />
     <Compile Include="Assets\Scripts\EnemyAI\DissableMovement.cs" />
+    <Compile Include="Assets\Scripts\EnemyAI\Moving.cs" />
+    <Compile Include="Assets\Scripts\EnemyAI\NewLocation.cs" />
     <Compile Include="Assets\Scripts\EnemyAI\Waypoints.cs" />
     <Compile Include="Assets\Scripts\TreeTrap\ParticleTrap.cs" />
     <Compile Include="Assets\Scripts\TreeTrap\ShowTrap.cs" />
     <Compile Include="Assets\Scripts\TreeTrap\TrapActive.cs" />
     <Compile Include="Assets\Scripts\TreeTrap\TrapChecker.cs" />
+    <Compile Include="Assets\Scripts\TreeTrap\TrapDissabler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
