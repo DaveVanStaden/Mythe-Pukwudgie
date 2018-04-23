@@ -6,6 +6,7 @@ public class DissableMovement : MonoBehaviour {
     private TrapChecker _trapChecker;
     private GameObject _trap;
     private Waypoints _waypoints;
+    public bool WalkAnim = true;
     // Use this for initialization
     void Start () {
         _trapChecker = GameObject.Find("Trap").GetComponent<TrapChecker>();
@@ -20,6 +21,10 @@ public class DissableMovement : MonoBehaviour {
         {
             _waypoints.enabled = false;
             Debug.Log(_waypoints.enabled);
+            WalkAnim = false;
+        } else
+        {
+            WalkAnim = true;
         }
     }
 }
