@@ -2,84 +2,63 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class controller : MonoBehaviour {
-  /*  private static string triangle = "";
-    public static string Triangle { get { return triangle; } }
-    private static string square = "";
-    public static string Square { get { return square; } }
-    private static string cross = "";
-    public static string Cross { get { return cross; } }
-    private static string circle = "";
-    public static string Circle { get { return circle; } }
-    private static string leftStickX = "";
-    public static string LeftStickX { get { return leftStickX; } }
-    private static string leftStickY = "";
-    public static string LeftStickY { get { return leftStickY; } }
-    private static string rightStickX = "";
-    public static string RightStickX { get { return rightStickX; } }
-    private static string rightStickY = "";
-    public static string RightStickY { get { return rightStickY; } }
-    private static string l1 = "";
-    public static string L1 { get { return l1; } }
-    private static string r1 = "";
-    public static string R1 { get { return r1; } }
-    private static string l2 = "";
-    public static string L2 { get { return l2; } }
-    private static string r2 = "";
-    public static string R2 { get { return r2; } }
-    private static string leftThumb = "";
-    public static string LeftThumb { get { return leftThumb; } }
-    private static string rightThumb = "";
-    public static string RightThumb { get { return rightThumb; } }
-    private static string dpadX = "";
-    public static string DpadX { get { return dpadX; } }
-    private static string dpadY = "";
-    public static string DpadY { get { return dpadY; } }
+public class Controller : MonoBehaviour {
+    private static string cross1 = "";
+    public static string Cross1 { get { return cross1; } }
+    private static string leftStickXP1 = "";
+    public static string LeftStickXP1 { get { return leftStickXP1; } }
+
+    private static string cross2 = "";
+    public static string Cross2 { get { return cross2; } }
+    private static string leftStickXP2 = "";
+    public static string LeftStickXP2 { get { return leftStickXP2; } }
+
+    private static string cross3 = "";
+    public static string Cross3 { get { return cross3; } }
+    private static string leftStickXP3 = "";
+    public static string LeftStickXP3 { get { return leftStickXP3; } }
+
+    private static string cross4 = "";
+    public static string Cross4 { get { return cross4; } }
+    private static string leftStickXP4 = "";
+    public static string LeftStickXP4 { get { return leftStickXP4; } }
 
     public static void setController(ControllerType controller, OperationSystem os)
     {
-        if (triangle != "")
+        if (cross1 != "")
             return;
 
         if (os == OperationSystem.mac)
         {
             if (controller == ControllerType.playstation)
             {
-                triangle = "psTriangle";
-                square = "psSquare";
-                cross = "psCross";
-                circle = "psCircle";
-                leftStickX = "psLeftStickX";
-                leftStickY = "psLeftStickY";
-                l1 = "psL1";
-                r1 = "psR1";
-                l2 = "psL2";
-                r2 = "psR2";
-                leftThumb = "psLeftThumb";
-                rightThumb = "psRightThumb";
-                dpadX = "psDpadX";
-                dpadY = "psDpadY";
-                rightStickX = "psRightStickX";
-                rightStickY = "psRightStickY";
+                cross1 = "psCrossP1";
+                leftStickXP1 = "psLeftStickXP1";
+
+                cross2 = "psCrossP2";
+                leftStickXP2 = "psLeftStickXP2";
+
+                cross3 = "psCrossP3";
+                leftStickXP3 = "psLeftStickXP3";
+
+                cross4 = "psCrossP4";
+                leftStickXP4 = "psLeftStickXP4";
                 return;
             }
 
             if (controller == ControllerType.xbox)
             {
-                triangle = "xboxYMac";
-                square = "xboxXMac";
-                cross = "xboxAMac";
-                circle = "xboxBMac";
-                leftStickX = "xboxLeftStickXMac";
-                leftStickY = "xboxLeftStickYMac";
-                rightStickX = "xboxRightStickXMac";
-                rightStickY = "xboxRightStickYMac";
-                l1 = "xboxLBMac";
-                r1 = "xboxRBMac";
-                l2 = "xboxLTMac";
-                r2 = "xboxRTMac";
-                leftThumb = "xboxLeftThumbMac";
-                rightThumb = "xboxRightThumbMac";
+                cross1 = "xboxAMacP1";
+                leftStickXP1 = "xboxLeftStickXMacP1";
+
+                cross2 = "xboxAMacP2";
+                leftStickXP2 = "xboxLeftStickXMacP2";
+
+                cross3 = "xboxAMacP3";
+                leftStickXP3 = "xboxLeftStickXMacP3";
+
+                cross4 = "xboxAMacP4";
+                leftStickXP4 = "xboxLeftStickXMacP4";
                 return;
             }
         }
@@ -88,45 +67,35 @@ public class controller : MonoBehaviour {
         {
             if (controller == ControllerType.playstation)
             {
-                triangle = "psTriangle";
-                square = "psSquare";
-                cross = "psCross";
-                circle = "psCircle";
-                leftStickX = "psLeftStickX";
-                leftStickY = "psLeftStickY";
-                l1 = "psL1";
-                r1 = "psR1";
-                l2 = "psL2";
-                r2 = "psR2";
-                leftThumb = "psLeftThumb";
-                rightThumb = "psRightThumb";
-                dpadX = "psDpadX";
-                dpadY = "psDpadY";
-                rightStickX = "psRightStickXWin";
-                rightStickY = "psRightStickYWin";
+                cross1 = "psCrossP1";
+                leftStickXP1 = "psLeftStickXP1";
+
+                cross2 = "psCrossP2";
+                leftStickXP2 = "psLeftStickXP2";
+
+                cross3 = "psCrossP3";
+                leftStickXP3 = "psLeftStickXP3";
+
+                cross4 = "psCrossP4";
+                leftStickXP4 = "psLeftStickXP4";
                 return;
             }
 
             if (controller == ControllerType.xbox)
             {
-                triangle = "xboxYWin";
-                square = "xboxXWin";
-                cross = "xboxAWin";
-                circle = "xboxBWin";
-                leftStickX = "xboxLeftStickXWin";
-                leftStickY = "xboxLeftStickYWin";
-                rightStickX = "xboxRightStickXWin";
-                rightStickY = "xboxRightStickYWin";
-                l1 = "xboxLBWin";
-                r1 = "xboxRBWin";
-                l2 = "xboxLTWin";
-                r2 = "xboxRTWin";
-                leftThumb = "xboxLeftThumbWin";
-                rightThumb = "xboxRightThumbWin";
-                dpadX = "xboxDpadXWin";
-                dpadY = "xboxDpadYWin";
+                cross1 = "xboxAWinP1";
+                leftStickXP1 = "xboxLeftStickXWinP1";
+
+                cross2 = "xboxAWinP2";
+                leftStickXP2 = "xboxLeftStickXWinP2";
+
+                cross3 = "xboxAWinP3";
+                leftStickXP3 = "xboxLeftStickXWinP3";
+
+                cross4 = "xboxAWinP4";
+                leftStickXP4 = "xboxLeftStickXWinP4";
                 return;
             }
         }
-    }*/
+    }
 }
