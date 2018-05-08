@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 7ea4a0751979fb046b8bfd3484d97548
+timeCreated: 1524478263
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: base
+    100002: Group3
+    100004: Group4
+    100006: head
+    100008: left_ball_foot
+    100010: left_elbow
+    100012: left_foot
+    100014: left_forarm
+    100016: left_hand
+    100018: left_indexfinger_knuckle
+    100020: left_indexfinger_mid
+    100022: left_indexfinger_nail
+    100024: left_indexfinger_palm
+    100026: left_lower_leg
+    100028: left_middlefinger_knuckle
+    100030: left_middlefinger_mid
+    100032: left_middlefinger_nail
+    100034: left_middlefinger_palm
+    100036: left_pinky_knuckle
+    100038: left_pinky_mid
+    100040: left_pinky_nail
+    100042: left_pinky_palm
+    100044: left_ring_finger
+    100046: left_ring_finger_knuckle
+    100048: left_ring_finger_mid
+    100050: left_ring_finger_nail
+    100052: left_shoulder
+    100054: left_thumb_hinge
+    100056: left_thumb_knuckle
+    100058: left_thumb_nail
+    100060: left_thumb_palm
+    100062: left_toes
+    100064: left_upper_arm
+    100066: left_upper_leg
+    100068: neck
+    100070: right_ball_foot
+    100072: right_elbow
+    100074: right_foot
+    100076: right_forarm
+    100078: right_hand
+    100080: right_indexfiner_nail
+    100082: right_indexfinger_knuckle
+    100084: right_indexfinger_mid
+    100086: right_indexfinger_palm
+    100088: right_lower_leg
+    100090: right_middlefinger_knuckle
+    100092: right_middlefinger_mid
+    100094: right_middlefinger_nail
+    100096: right_middlefinger_palm
+    100098: right_pinky_knuckle
+    100100: right_pinky_mid
+    100102: right_pinky_nail
+    100104: right_pinky_palm
+    100106: right_ring_finger_knuckle
+    100108: right_ring_finger_mid
+    100110: right_ring_finger_nail
+    100112: right_ring_finger_palm
+    100114: right_shoulder
+    100116: right_thumb_hinge
+    100118: right_thumb_knuckle
+    100120: right_thumb_nail
+    100122: right_thumb_palm
+    100124: right_toes
+    100126: right_upper_arm
+    100128: right_upper_leg
+    100130: skeleton_group
+    100132: spline
+    100134: spline_1
+    100136: spline_2
+    100138: spline_3
+    100140: spline_4
+    100142: vrouw__
+    100144: vrouw_low
+    100146: //RootNode
+    400000: base
+    400002: Group3
+    400004: Group4
+    400006: head
+    400008: left_ball_foot
+    400010: left_elbow
+    400012: left_foot
+    400014: left_forarm
+    400016: left_hand
+    400018: left_indexfinger_knuckle
+    400020: left_indexfinger_mid
+    400022: left_indexfinger_nail
+    400024: left_indexfinger_palm
+    400026: left_lower_leg
+    400028: left_middlefinger_knuckle
+    400030: left_middlefinger_mid
+    400032: left_middlefinger_nail
+    400034: left_middlefinger_palm
+    400036: left_pinky_knuckle
+    400038: left_pinky_mid
+    400040: left_pinky_nail
+    400042: left_pinky_palm
+    400044: left_ring_finger
+    400046: left_ring_finger_knuckle
+    400048: left_ring_finger_mid
+    400050: left_ring_finger_nail
+    400052: left_shoulder
+    400054: left_thumb_hinge
+    400056: left_thumb_knuckle
+    400058: left_thumb_nail
+    400060: left_thumb_palm
+    400062: left_toes
+    400064: left_upper_arm
+    400066: left_upper_leg
+    400068: neck
+    400070: right_ball_foot
+    400072: right_elbow
+    400074: right_foot
+    400076: right_forarm
+    400078: right_hand
+    400080: right_indexfiner_nail
+    400082: right_indexfinger_knuckle
+    400084: right_indexfinger_mid
+    400086: right_indexfinger_palm
+    400088: right_lower_leg
+    400090: right_middlefinger_knuckle
+    400092: right_middlefinger_mid
+    400094: right_middlefinger_nail
+    400096: right_middlefinger_palm
+    400098: right_pinky_knuckle
+    400100: right_pinky_mid
+    400102: right_pinky_nail
+    400104: right_pinky_palm
+    400106: right_ring_finger_knuckle
+    400108: right_ring_finger_mid
+    400110: right_ring_finger_nail
+    400112: right_ring_finger_palm
+    400114: right_shoulder
+    400116: right_thumb_hinge
+    400118: right_thumb_knuckle
+    400120: right_thumb_nail
+    400122: right_thumb_palm
+    400124: right_toes
+    400126: right_upper_arm
+    400128: right_upper_leg
+    400130: skeleton_group
+    400132: spline
+    400134: spline_1
+    400136: spline_2
+    400138: spline_3
+    400140: spline_4
+    400142: vrouw__
+    400144: vrouw_low
+    400146: //RootNode
+    2100000: oogen_vrouw
+    2100002: character_Vrouw
+    2300000: Group3
+    2300002: Group4
+    3300000: Group3
+    3300002: Group4
+    4300000: Group3
+    4300002: Group4
+    4300004: vrouw_low
+    9500000: //RootNode
+    13700000: vrouw_low
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
