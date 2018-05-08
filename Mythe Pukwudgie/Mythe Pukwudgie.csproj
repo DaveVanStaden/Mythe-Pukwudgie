@@ -333,22 +333,26 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
-    <Compile Include="Assets\Scripts\Cursor\Controller.cs" />
     <Compile Include="Assets\Scripts\Cursor\CursorInBox.cs" />
     <Compile Include="Assets\Scripts\Cursor\CursorMovement.cs" />
+    <Compile Include="Assets\Scripts\Cursor\CursorMovement1.cs" />
+    <Compile Include="Assets\Scripts\Cursor\CursorMovement2.cs" />
+    <Compile Include="Assets\Scripts\Cursor\CursorMovement3.cs" />
     <Compile Include="Assets\Scripts\Cursor\CursorRayCast.cs" />
     <Compile Include="Assets\Scripts\Cursor\DragManager.cs" />
     <Compile Include="Assets\Scripts\EnemyAI\Arrived.cs" />
     <Compile Include="Assets\Scripts\EnemyAI\DissableMovement.cs" />
     <Compile Include="Assets\Scripts\EnemyAI\Moving.cs" />
     <Compile Include="Assets\Scripts\EnemyAI\NewLocation.cs" />
-    <Compile Include="Assets\Scripts\EnemyAI\PlayerAnimations.cs" />
     <Compile Include="Assets\Scripts\EnemyAI\Waypoints.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer\Controller.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer\Values.cs" />
+    <Compile Include="Assets\Scripts\SceneManagement\MainMenu.cs" />
     <Compile Include="Assets\Scripts\TreeTrap\ParticleTrap.cs" />
-    <Compile Include="Assets\Scripts\TreeTrap\ShowTrap.cs" />
     <Compile Include="Assets\Scripts\TreeTrap\TrapActive.cs" />
     <Compile Include="Assets\Scripts\TreeTrap\TrapChecker.cs" />
     <Compile Include="Assets\Scripts\TreeTrap\TrapDissabler.cs" />
+    <Compile Include="Assets\Scripts\TreeTrap\TrapShow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
@@ -392,6 +396,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
     <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\Scripts\Shaders\Relugar.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

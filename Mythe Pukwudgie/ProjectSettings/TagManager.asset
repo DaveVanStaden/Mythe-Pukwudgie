@@ -8,6 +8,7 @@ TagManager:
   - Trap
   - TrapActivator
   - TrapDissabler
+  - Drag
   layers:
   - Default
   - TransparentFX

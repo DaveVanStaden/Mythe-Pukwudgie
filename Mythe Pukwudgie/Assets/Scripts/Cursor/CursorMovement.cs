@@ -6,16 +6,26 @@ public class CursorMovement : MonoBehaviour {
     private float _x;
     private float _y;
     public float speed = 5;
-    public float rotationSpeed = 5;
+    private float _horizontalInput;
+    private float vertical;
+    private float horizontal;
+    private string stickY;
+    private string stickX;
 
-	void Update () {
-        Movement();
+    private void Start()
+    {
+        if (stickY == null)
+            stickY = Controller.LeftStickYP1;
+        if (stickX == null)
+            stickX = Controller.LeftStickXP1; 
     }
-    void Movement(){
-        float translation = Input.GetAxis("Vertical") * speed;
-        float rotation = Input.GetAxis("Horizontal") * rotationSpeed;
-        translation *= speed * Time.deltaTime;
-        rotation *= speed * Time.deltaTime;
-        transform.Translate(rotation, translation, 0);
+    void Update () {
+        vertical = Input.GetAxis(stickY) * speed;
+        horizontal = Input.GetAxis(stickX) * speed;
+    }
+    void FixedUpdate(){
+        vertical *= speed * Time.deltaTime;
+        horizontal *= speed * Time.deltaTime;
+        transform.Translate(-horizontal, -vertical, 0);
     }
 }

@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 5e1e449334261b741952bc0d03b79103
+timeCreated: 1525553889
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Rig_complete_vrouw:base
+    100002: Rig_complete_vrouw:eyes:Group4
+    100004: Rig_complete_vrouw:Group1
+    100006: Rig_complete_vrouw:head
+    100008: Rig_complete_vrouw:left_ball_foot
+    100010: Rig_complete_vrouw:left_elbow
+    100012: Rig_complete_vrouw:left_foot
+    100014: Rig_complete_vrouw:left_forarm
+    100016: Rig_complete_vrouw:left_hand
+    100018: Rig_complete_vrouw:left_indexfinger_knuckle
+    100020: Rig_complete_vrouw:left_indexfinger_mid
+    100022: Rig_complete_vrouw:left_indexfinger_nail
+    100024: Rig_complete_vrouw:left_indexfinger_palm
+    100026: Rig_complete_vrouw:left_lower_leg
+    100028: Rig_complete_vrouw:left_middlefinger_knuckle
+    100030: Rig_complete_vrouw:left_middlefinger_mid
+    100032: Rig_complete_vrouw:left_middlefinger_nail
+    100034: Rig_complete_vrouw:left_middlefinger_palm
+    100036: Rig_complete_vrouw:left_pinky_knuckle
+    100038: Rig_complete_vrouw:left_pinky_mid
+    100040: Rig_complete_vrouw:left_pinky_nail
+    100042: Rig_complete_vrouw:left_pinky_palm
+    100044: Rig_complete_vrouw:left_ring_finger
+    100046: Rig_complete_vrouw:left_ring_finger_knuckle
+    100048: Rig_complete_vrouw:left_ring_finger_mid
+    100050: Rig_complete_vrouw:left_ring_finger_nail
+    100052: Rig_complete_vrouw:left_shoulder
+    100054: Rig_complete_vrouw:left_thumb_hinge
+    100056: Rig_complete_vrouw:left_thumb_knuckle
+    100058: Rig_complete_vrouw:left_thumb_nail
+    100060: Rig_complete_vrouw:left_thumb_palm
+    100062: Rig_complete_vrouw:left_toes
+    100064: Rig_complete_vrouw:left_upper_arm
+    100066: Rig_complete_vrouw:left_upper_leg
+    100068: Rig_complete_vrouw:neck
+    100070: Rig_complete_vrouw:right_ball_foot
+    100072: Rig_complete_vrouw:right_elbow
+    100074: Rig_complete_vrouw:right_foot
+    100076: Rig_complete_vrouw:right_forarm
+    100078: Rig_complete_vrouw:right_hand
+    100080: Rig_complete_vrouw:right_indexfiner_nail
+    100082: Rig_complete_vrouw:right_indexfinger_knuckle
+    100084: Rig_complete_vrouw:right_indexfinger_mid
+    100086: Rig_complete_vrouw:right_indexfinger_palm
+    100088: Rig_complete_vrouw:right_lower_leg
+    100090: Rig_complete_vrouw:right_middlefinger_knuckle
+    100092: Rig_complete_vrouw:right_middlefinger_mid
+    100094: Rig_complete_vrouw:right_middlefinger_nail
+    100096: Rig_complete_vrouw:right_middlefinger_palm
+    100098: Rig_complete_vrouw:right_pinky_knuckle
+    100100: Rig_complete_vrouw:right_pinky_mid
+    100102: Rig_complete_vrouw:right_pinky_nail
+    100104: Rig_complete_vrouw:right_pinky_palm
+    100106: Rig_complete_vrouw:right_ring_finger_knuckle
+    100108: Rig_complete_vrouw:right_ring_finger_mid
+    100110: Rig_complete_vrouw:right_ring_finger_nail
+    100112: Rig_complete_vrouw:right_ring_finger_palm
+    100114: Rig_complete_vrouw:right_shoulder
+    100116: Rig_complete_vrouw:right_thumb_hinge
+    100118: Rig_complete_vrouw:right_thumb_knuckle
+    100120: Rig_complete_vrouw:right_thumb_nail
+    100122: Rig_complete_vrouw:right_thumb_palm
+    100124: Rig_complete_vrouw:right_toes
+    100126: Rig_complete_vrouw:right_upper_arm
+    100128: Rig_complete_vrouw:right_upper_leg
+    100130: Rig_complete_vrouw:skeleton_group
+    100132: Rig_complete_vrouw:spline
+    100134: Rig_complete_vrouw:spline_1
+    100136: Rig_complete_vrouw:spline_2
+    100138: Rig_complete_vrouw:spline_3
+    100140: Rig_complete_vrouw:spline_4
+    100142: Rig_complete_vrouw:vrouw__
+    100144: Rig_complete_vrouw:vrouw_low
+    100146: //RootNode
+    400000: Rig_complete_vrouw:base
+    400002: Rig_complete_vrouw:eyes:Group4
+    400004: Rig_complete_vrouw:Group1
+    400006: Rig_complete_vrouw:head
+    400008: Rig_complete_vrouw:left_ball_foot
+    400010: Rig_complete_vrouw:left_elbow
+    400012: Rig_complete_vrouw:left_foot
+    400014: Rig_complete_vrouw:left_forarm
+    400016: Rig_complete_vrouw:left_hand
+    400018: Rig_complete_vrouw:left_indexfinger_knuckle
+    400020: Rig_complete_vrouw:left_indexfinger_mid
+    400022: Rig_complete_vrouw:left_indexfinger_nail
+    400024: Rig_complete_vrouw:left_indexfinger_palm
+    400026: Rig_complete_vrouw:left_lower_leg
+    400028: Rig_complete_vrouw:left_middlefinger_knuckle
+    400030: Rig_complete_vrouw:left_middlefinger_mid
+    400032: Rig_complete_vrouw:left_middlefinger_nail
+    400034: Rig_complete_vrouw:left_middlefinger_palm
+    400036: Rig_complete_vrouw:left_pinky_knuckle
+    400038: Rig_complete_vrouw:left_pinky_mid
+    400040: Rig_complete_vrouw:left_pinky_nail
+    400042: Rig_complete_vrouw:left_pinky_palm
+    400044: Rig_complete_vrouw:left_ring_finger
+    400046: Rig_complete_vrouw:left_ring_finger_knuckle
+    400048: Rig_complete_vrouw:left_ring_finger_mid
+    400050: Rig_complete_vrouw:left_ring_finger_nail
+    400052: Rig_complete_vrouw:left_shoulder
+    400054: Rig_complete_vrouw:left_thumb_hinge
+    400056: Rig_complete_vrouw:left_thumb_knuckle
+    400058: Rig_complete_vrouw:left_thumb_nail
+    400060: Rig_complete_vrouw:left_thumb_palm
+    400062: Rig_complete_vrouw:left_toes
+    400064: Rig_complete_vrouw:left_upper_arm
+    400066: Rig_complete_vrouw:left_upper_leg
+    400068: Rig_complete_vrouw:neck
+    400070: Rig_complete_vrouw:right_ball_foot
+    400072: Rig_complete_vrouw:right_elbow
+    400074: Rig_complete_vrouw:right_foot
+    400076: Rig_complete_vrouw:right_forarm
+    400078: Rig_complete_vrouw:right_hand
+    400080: Rig_complete_vrouw:right_indexfiner_nail
+    400082: Rig_complete_vrouw:right_indexfinger_knuckle
+    400084: Rig_complete_vrouw:right_indexfinger_mid
+    400086: Rig_complete_vrouw:right_indexfinger_palm
+    400088: Rig_complete_vrouw:right_lower_leg
+    400090: Rig_complete_vrouw:right_middlefinger_knuckle
+    400092: Rig_complete_vrouw:right_middlefinger_mid
+    400094: Rig_complete_vrouw:right_middlefinger_nail
+    400096: Rig_complete_vrouw:right_middlefinger_palm
+    400098: Rig_complete_vrouw:right_pinky_knuckle
+    400100: Rig_complete_vrouw:right_pinky_mid
+    400102: Rig_complete_vrouw:right_pinky_nail
+    400104: Rig_complete_vrouw:right_pinky_palm
+    400106: Rig_complete_vrouw:right_ring_finger_knuckle
+    400108: Rig_complete_vrouw:right_ring_finger_mid
+    400110: Rig_complete_vrouw:right_ring_finger_nail
+    400112: Rig_complete_vrouw:right_ring_finger_palm
+    400114: Rig_complete_vrouw:right_shoulder
+    400116: Rig_complete_vrouw:right_thumb_hinge
+    400118: Rig_complete_vrouw:right_thumb_knuckle
+    400120: Rig_complete_vrouw:right_thumb_nail
+    400122: Rig_complete_vrouw:right_thumb_palm
+    400124: Rig_complete_vrouw:right_toes
+    400126: Rig_complete_vrouw:right_upper_arm
+    400128: Rig_complete_vrouw:right_upper_leg
+    400130: Rig_complete_vrouw:skeleton_group
+    400132: Rig_complete_vrouw:spline
+    400134: Rig_complete_vrouw:spline_1
+    400136: Rig_complete_vrouw:spline_2
+    400138: Rig_complete_vrouw:spline_3
+    400140: Rig_complete_vrouw:spline_4
+    400142: Rig_complete_vrouw:vrouw__
+    400144: Rig_complete_vrouw:vrouw_low
+    400146: //RootNode
+    2100000: Rig_complete_vrouw_character_Vrouw
+    2100002: Rig_complete_vrouw_boer_oogen_mat
+    2300000: Rig_complete_vrouw:eyes:Group4
+    2300002: Rig_complete_vrouw:Group1
+    3300000: Rig_complete_vrouw:eyes:Group4
+    3300002: Rig_complete_vrouw:Group1
+    4300000: Rig_complete_vrouw:vrouw_low
+    4300002: Rig_complete_vrouw:Group1
+    4300004: Rig_complete_vrouw:eyes:Group4
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Rig_complete_vrouw:vrouw_low
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

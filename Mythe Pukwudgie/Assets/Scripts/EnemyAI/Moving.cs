@@ -19,7 +19,6 @@ public class Moving : MonoBehaviour {
 
         float coveredDistance = (Time.time - _wp.StartTime) * _wp.MovementSpeed;
         float journey = coveredDistance / _wp.Distance;
-        print(journey);
         if (!float.IsNaN(journey))
             this.transform.position = Vector3.Lerp(_wp.LastPosition, _wp.NextPosition, journey);
     }
