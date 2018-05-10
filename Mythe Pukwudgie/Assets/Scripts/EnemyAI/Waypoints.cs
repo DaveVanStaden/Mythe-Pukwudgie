@@ -30,7 +30,7 @@ public class Waypoints : MonoBehaviour {
         _mv = this.GetComponent<Moving>();
 
         _pointIndex = 0;
-        _nextPosition = new Vector3 (_points[_pointIndex].transform.position.x, 0, _points[_pointIndex].transform.position.z);
+        _nextPosition = new Vector3 (_points[_pointIndex].transform.position.x, -9, _points[_pointIndex].transform.position.z);
         _lastPosition = this.transform.position;
         _movementSpeed = 1;
         _startTime = Time.time;

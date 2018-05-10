@@ -8,18 +8,18 @@ public class CursorInBox : MonoBehaviour {
     }
     void CheckPosition(){
         // X axis
-        if (transform.position.x <= 118f){
-            transform.position = new Vector3(118f, transform.position.y, transform.position.z);
+        if (transform.position.x <= 120f){
+            transform.position = new Vector3(120, 29, transform.position.z);
         }
-        else if (transform.position.x >= 152f){
-            transform.position = new Vector3(152f, transform.position.y, transform.position.z);
+        else if (transform.position.x >= 150f){
+            transform.position = new Vector3(150f, 29, transform.position.z);
         }
         // Y axis
-        if (transform.position.y <= 10f){
-            transform.position = new Vector3(transform.position.x, 10f, transform.position.z);
+        if (transform.position.z <= 90f){
+            transform.position = new Vector3(transform.position.x, 29, 90f);
         }
-        else if (transform.position.y >= 22f){
-            transform.position = new Vector3(transform.position.x, 22f, transform.position.z);
+        else if (transform.position.z >= 102f){
+            transform.position = new Vector3(transform.position.x, 29, 102f);
         }
     }
 }

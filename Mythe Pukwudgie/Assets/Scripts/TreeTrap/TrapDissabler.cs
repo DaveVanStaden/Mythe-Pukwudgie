@@ -11,9 +11,11 @@ public class TrapDissabler : MonoBehaviour {
 	}
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Ik Werk ook weer");
         if (other.tag == "TrapDissabler")
         {
             trapDissabler = true;
+            
         }
         else
         {
@@ -26,6 +28,7 @@ public class TrapDissabler : MonoBehaviour {
         {
             Destroy(_trapDissableObject);
             Destroy(gameObject);
+            
         }
     }
 }

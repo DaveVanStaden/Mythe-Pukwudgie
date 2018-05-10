@@ -339,6 +339,10 @@
     <Compile Include="Assets\Scripts\Cursor\CursorMovement2.cs" />
     <Compile Include="Assets\Scripts\Cursor\CursorMovement3.cs" />
     <Compile Include="Assets\Scripts\Cursor\CursorRayCast.cs" />
+    <Compile Include="Assets\Scripts\Cursor\DragDrop\Drag.cs" />
+    <Compile Include="Assets\Scripts\Cursor\DragDrop\Drag2.cs" />
+    <Compile Include="Assets\Scripts\Cursor\DragDrop\Drag3.cs" />
+    <Compile Include="Assets\Scripts\Cursor\DragDrop\Drag4.cs" />
     <Compile Include="Assets\Scripts\Cursor\DragManager.cs" />
     <Compile Include="Assets\Scripts\EnemyAI\Arrived.cs" />
     <Compile Include="Assets\Scripts\EnemyAI\DissableMovement.cs" />

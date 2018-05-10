@@ -27,7 +27,8 @@ public class DragManager : MonoBehaviour
         if (Physics.Raycast(ray, out hit))
         {
             _hitFloor = hit.collider.transform.position;
-            if (hit.collider.gameObject.tag == "Drag" && Input.GetKeyDown("e") || hit.collider.gameObject.tag == "TrapActivator" && Input.GetKeyDown("e") || hit.collider.gameObject.tag == "TrapDissabler" && Input.GetKeyDown("e"))
+            if (hit.collider.gameObject.tag == "Drag" && Input.GetKeyDown("e") || hit.collider.gameObject.tag == "TrapActivator" && Input.GetKeyDown("e") 
+                || hit.collider.gameObject.tag == "TrapDissabler" && Input.GetKeyDown("e"))
             {
                 Rigidbody _rb = hit.collider.gameObject.GetComponent<Rigidbody>();
                 _hand = _hand + 1;

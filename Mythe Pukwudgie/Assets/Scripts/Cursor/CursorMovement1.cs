@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CursorMovement1 : MonoBehaviour {
+    /* We zijn ons bewust van de lelijkheid van 4 dezelfde scripts
+ * Maar door tijdnood waren we genoodzaakt dit te doen.
+ * Sorry voor het ongemak
+ */
     private float _x;
     private float _y;
     public float speed = 5;
@@ -17,7 +21,7 @@ public class CursorMovement1 : MonoBehaviour {
         if (stickY == null)
             stickY = Controller.LeftStickYP2;
         if (stickX == null)
-            stickX = Controller.LeftStickXP2; 
+            stickX = Controller.LeftStickXP2;
     }
     void Update () {
         vertical = Input.GetAxis(stickY) * speed;

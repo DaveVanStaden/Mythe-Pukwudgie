@@ -15,9 +15,9 @@ public class TrapChecker : MonoBehaviour {
     private void OnTriggerEnter(Collider collision){
         print(collision.gameObject.name);
         if (collision.gameObject.tag == "Player") {
-            Debug.Log(activate);
             activate = true;
-            _particleTrap.ParticleSystem();
+            Destroy(gameObject);
+            Debug.Log(activate);
         }
 
     }

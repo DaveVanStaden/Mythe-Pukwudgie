@@ -6,11 +6,11 @@ public class TrapShow : MonoBehaviour {
     public GameObject bearTrap;
     public GameObject trapActivator;
     private TrapActive _trapActive;
-    private GameObject _trapActivator;
     // Use this for initialization
     void Start()
     {
         _trapActive = trapActivator.GetComponent<TrapActive>();
+        
     }
 
     // Update is called once per frame

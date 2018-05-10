@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CursorMovement3 : MonoBehaviour {
+    /* We zijn ons bewust van de lelijkheid van 4 dezelfde scripts
+ * Maar door tijdnood waren we genoodzaakt dit te doen.
+ * Sorry voor het ongemak
+ */
     private float _x;
     private float _y;
     public float speed = 5;

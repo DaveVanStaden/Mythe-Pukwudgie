@@ -21,5 +21,6 @@ public class Moving : MonoBehaviour {
         float journey = coveredDistance / _wp.Distance;
         if (!float.IsNaN(journey))
             this.transform.position = Vector3.Lerp(_wp.LastPosition, _wp.NextPosition, journey);
+            transform.LookAt(_wp.NextPosition);
     }
 }
